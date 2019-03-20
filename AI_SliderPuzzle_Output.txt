@@ -1,0 +1,747 @@
+
+
+		Welcome to Chips Slider Puzzle
+	-------------------------------------
+
+	Menu:
+		1: Enter a puzzle.
+		2: Use a user created puzzle.
+		3: Use a pre-made puzzle.
+		4: Use a generated puzzle.
+		5: Credits.
+		6: Exit Program.
+
+		User Selection: 3
+
+	Puzzle:
+		1: 0 2 3 
+		   4 5 6 
+		   7 8 1 
+
+		2: 2 4 6 
+		   8 0 1 
+		   3 5 7 
+
+		3: 0 8 1 
+		   7 2 6 
+		   3 5 4 
+
+		4: 2 3 4 
+		   8 0 7 
+		   6 5 1 
+
+		5: RETURN TO MAIN MENU
+
+
+		User Selection: 3
+
+This is your selected puzzle:
+		_	_	_	_	_	_	_
+		|	0	|	8	|	1	|
+		|	-	-	-	-	-	|
+		|	7	|	2	|	6	|
+		|	-	-	-	-	-	|
+		|	3	|	5	|	4	|
+		-	-	-	-	-	-	-
+
+User Selection: 3
+
+
+Mispalced Tiles Search Elapsed time: 0.456717s
+
+		Total Nodes Created: 1089
+
+		Total Moves: 66
+
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	8	|	0	|
+		-	-	-	-	-	-	-
+
+Printing each move from start to finish.
+
+	Starting State:
+	Number of Misplace Tiles:8
+		_	_	_	_	_	_	_
+		|	0	|	8	|	1	|
+		|	-	-	-	-	-	|
+		|	7	|	2	|	6	|
+		|	-	-	-	-	-	|
+		|	3	|	5	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 1
+	Number of Misplace Tiles:8
+		_	_	_	_	_	_	_
+		|	8	|	0	|	1	|
+		|	-	-	-	-	-	|
+		|	7	|	2	|	6	|
+		|	-	-	-	-	-	|
+		|	3	|	5	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 2
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	7	|	0	|	6	|
+		|	-	-	-	-	-	|
+		|	3	|	5	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 3
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	7	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	3	|	0	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 4
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	7	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	0	|	3	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 5
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	0	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	3	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 6
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	5	|	0	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	3	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 7
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	5	|	3	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	0	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 8
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	5	|	3	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	4	|	0	|
+		-	-	-	-	-	-	-
+
+	Step Number: 9
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	5	|	3	|	0	|
+		|	-	-	-	-	-	|
+		|	7	|	4	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 10
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	5	|	0	|	3	|
+		|	-	-	-	-	-	|
+		|	7	|	4	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 11
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	8	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	0	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	7	|	4	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 12
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	0	|	2	|	1	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	7	|	4	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 13
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	2	|	0	|	1	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	7	|	4	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 14
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	2	|	1	|	0	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	7	|	4	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 15
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	2	|	1	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	0	|
+		|	-	-	-	-	-	|
+		|	7	|	4	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 16
+	Number of Misplace Tiles:4
+		_	_	_	_	_	_	_
+		|	2	|	1	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	4	|	0	|
+		-	-	-	-	-	-	-
+
+	Step Number: 17
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	2	|	1	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	0	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 18
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	2	|	1	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	0	|	7	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 19
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	2	|	1	|	3	|
+		|	-	-	-	-	-	|
+		|	0	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	8	|	7	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 20
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	0	|	1	|	3	|
+		|	-	-	-	-	-	|
+		|	2	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	8	|	7	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 21
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	0	|	3	|
+		|	-	-	-	-	-	|
+		|	2	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	8	|	7	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 22
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	2	|	0	|	6	|
+		|	-	-	-	-	-	|
+		|	8	|	7	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 23
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	0	|	2	|	6	|
+		|	-	-	-	-	-	|
+		|	8	|	7	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 24
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	2	|	6	|
+		|	-	-	-	-	-	|
+		|	0	|	7	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 25
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	2	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	0	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 26
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	0	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	2	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 27
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	6	|	0	|
+		|	-	-	-	-	-	|
+		|	7	|	2	|	4	|
+		-	-	-	-	-	-	-
+
+	Step Number: 28
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	6	|	4	|
+		|	-	-	-	-	-	|
+		|	7	|	2	|	0	|
+		-	-	-	-	-	-	-
+
+	Step Number: 29
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	6	|	4	|
+		|	-	-	-	-	-	|
+		|	7	|	0	|	2	|
+		-	-	-	-	-	-	-
+
+	Step Number: 30
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	5	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	0	|	4	|
+		|	-	-	-	-	-	|
+		|	7	|	6	|	2	|
+		-	-	-	-	-	-	-
+
+	Step Number: 31
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	0	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	4	|
+		|	-	-	-	-	-	|
+		|	7	|	6	|	2	|
+		-	-	-	-	-	-	-
+
+	Step Number: 32
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	3	|	0	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	4	|
+		|	-	-	-	-	-	|
+		|	7	|	6	|	2	|
+		-	-	-	-	-	-	-
+
+	Step Number: 33
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	3	|	4	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	0	|
+		|	-	-	-	-	-	|
+		|	7	|	6	|	2	|
+		-	-	-	-	-	-	-
+
+	Step Number: 34
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	1	|	3	|	4	|
+		|	-	-	-	-	-	|
+		|	8	|	0	|	5	|
+		|	-	-	-	-	-	|
+		|	7	|	6	|	2	|
+		-	-	-	-	-	-	-
+
+	Step Number: 35
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	1	|	3	|	4	|
+		|	-	-	-	-	-	|
+		|	8	|	6	|	5	|
+		|	-	-	-	-	-	|
+		|	7	|	0	|	2	|
+		-	-	-	-	-	-	-
+
+	Step Number: 36
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	3	|	4	|
+		|	-	-	-	-	-	|
+		|	8	|	6	|	5	|
+		|	-	-	-	-	-	|
+		|	7	|	2	|	0	|
+		-	-	-	-	-	-	-
+
+	Step Number: 37
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	1	|	3	|	4	|
+		|	-	-	-	-	-	|
+		|	8	|	6	|	0	|
+		|	-	-	-	-	-	|
+		|	7	|	2	|	5	|
+		-	-	-	-	-	-	-
+
+	Step Number: 38
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	3	|	4	|
+		|	-	-	-	-	-	|
+		|	8	|	0	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	2	|	5	|
+		-	-	-	-	-	-	-
+
+	Step Number: 39
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	3	|	4	|
+		|	-	-	-	-	-	|
+		|	8	|	2	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	0	|	5	|
+		-	-	-	-	-	-	-
+
+	Step Number: 40
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	3	|	4	|
+		|	-	-	-	-	-	|
+		|	8	|	2	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	5	|	0	|
+		-	-	-	-	-	-	-
+
+	Step Number: 41
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	1	|	3	|	4	|
+		|	-	-	-	-	-	|
+		|	8	|	2	|	0	|
+		|	-	-	-	-	-	|
+		|	7	|	5	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 42
+	Number of Misplace Tiles:7
+		_	_	_	_	_	_	_
+		|	1	|	3	|	0	|
+		|	-	-	-	-	-	|
+		|	8	|	2	|	4	|
+		|	-	-	-	-	-	|
+		|	7	|	5	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 43
+	Number of Misplace Tiles:6
+		_	_	_	_	_	_	_
+		|	1	|	0	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	2	|	4	|
+		|	-	-	-	-	-	|
+		|	7	|	5	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 44
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	0	|	4	|
+		|	-	-	-	-	-	|
+		|	7	|	5	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 45
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	4	|	0	|
+		|	-	-	-	-	-	|
+		|	7	|	5	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 46
+	Number of Misplace Tiles:3
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	4	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	5	|	0	|
+		-	-	-	-	-	-	-
+
+	Step Number: 47
+	Number of Misplace Tiles:4
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	4	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	0	|	5	|
+		-	-	-	-	-	-	-
+
+	Step Number: 48
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	8	|	4	|	6	|
+		|	-	-	-	-	-	|
+		|	0	|	7	|	5	|
+		-	-	-	-	-	-	-
+
+	Step Number: 49
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	0	|	4	|	6	|
+		|	-	-	-	-	-	|
+		|	8	|	7	|	5	|
+		-	-	-	-	-	-	-
+
+	Step Number: 50
+	Number of Misplace Tiles:4
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	0	|	6	|
+		|	-	-	-	-	-	|
+		|	8	|	7	|	5	|
+		-	-	-	-	-	-	-
+
+	Step Number: 51
+	Number of Misplace Tiles:4
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	7	|	6	|
+		|	-	-	-	-	-	|
+		|	8	|	0	|	5	|
+		-	-	-	-	-	-	-
+
+	Step Number: 52
+	Number of Misplace Tiles:3
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	7	|	6	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	0	|
+		-	-	-	-	-	-	-
+
+	Step Number: 53
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	7	|	0	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 54
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	0	|	7	|
+		|	-	-	-	-	-	|
+		|	8	|	5	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 55
+	Number of Misplace Tiles:4
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	5	|	7	|
+		|	-	-	-	-	-	|
+		|	8	|	0	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 56
+	Number of Misplace Tiles:3
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	5	|	7	|
+		|	-	-	-	-	-	|
+		|	0	|	8	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 57
+	Number of Misplace Tiles:4
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	0	|	5	|	7	|
+		|	-	-	-	-	-	|
+		|	4	|	8	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 58
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	5	|	0	|	7	|
+		|	-	-	-	-	-	|
+		|	4	|	8	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 59
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	5	|	7	|	0	|
+		|	-	-	-	-	-	|
+		|	4	|	8	|	6	|
+		-	-	-	-	-	-	-
+
+	Step Number: 60
+	Number of Misplace Tiles:3
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	5	|	7	|	6	|
+		|	-	-	-	-	-	|
+		|	4	|	8	|	0	|
+		-	-	-	-	-	-	-
+
+	Step Number: 61
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	5	|	7	|	6	|
+		|	-	-	-	-	-	|
+		|	4	|	0	|	8	|
+		-	-	-	-	-	-	-
+
+	Step Number: 62
+	Number of Misplace Tiles:5
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	5	|	0	|	6	|
+		|	-	-	-	-	-	|
+		|	4	|	7	|	8	|
+		-	-	-	-	-	-	-
+
+	Step Number: 63
+	Number of Misplace Tiles:4
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	0	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	4	|	7	|	8	|
+		-	-	-	-	-	-	-
+
+	Step Number: 64
+	Number of Misplace Tiles:3
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	0	|	7	|	8	|
+		-	-	-	-	-	-	-
+
+	Step Number: 65
+	Number of Misplace Tiles:2
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	0	|	8	|
+		-	-	-	-	-	-	-
+
+	Step Number: 66
+	Number of Misplace Tiles:0
+		_	_	_	_	_	_	_
+		|	1	|	2	|	3	|
+		|	-	-	-	-	-	|
+		|	4	|	5	|	6	|
+		|	-	-	-	-	-	|
+		|	7	|	8	|	0	|
+		-	-	-	-	-	-	-
+
+	Menu:
+		1: Enter a puzzle.
+		2: Use a user created puzzle.
+		3: Use a pre-made puzzle.
+		4: Use a generated puzzle.
+		5: Credits.
+		6: Exit Program.
+
+		User Selection: 6
+
+
+Program Close.
